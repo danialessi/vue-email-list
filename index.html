@@ -14,7 +14,7 @@
 <body>
     
     <div id="root">
-        <ul>
+        <ul v-if="listaEmail.length === 10">
             <li v-for="element in listaEmail">{{ element }}</li>
         </ul>
     </div>
